@@ -22,7 +22,7 @@ set(messages "")
 #    list(APPEND messages "Doxyfile not found")
 #endif()
 
-if (NOT DOXYPRESS_EXAMPLE_PATH STREQUAL "${PROJECT_SOURCE_DIR}/example")
+if (NOT DOXYGEN_EXAMPLE_PATH STREQUAL "${PROJECT_SOURCE_DIR}/example")
     list(APPEND messages "example directory is not ${PROJECT_SOURCE_DIR}/example")
 endif()
 
