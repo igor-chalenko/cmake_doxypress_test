@@ -2,7 +2,7 @@ project(docs)
 
 find_package(doxygen-cmake REQUIRED)
 
-log_level(doxygen TRACE)
+log_level(doxygen INFO)
 # set(dot.class-diagrams false)
 if (TARGET Doxygen::doxygen)
     add_doxygen_targets(PROJECT_FILE Doxyfile EXAMPLE_PATH ../example GENERATE_PDF)
