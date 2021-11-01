@@ -1,6 +1,6 @@
 project(docs)
 
-find_package(doxygen-cmake REQUIRED)
+find_package(DoxygenCMake REQUIRED)
 
 log_level(doxygen INFO)
 # set(dot.class-diagrams false)
